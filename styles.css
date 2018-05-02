@@ -1,0 +1,23 @@
+html {
+    font-size: 10px;
+    background-color: #99CCFF;
+    background-size: cover;
+    text-align: center;
+    font-family: sans-serif;
+}
+h3 {
+    font-size: 8rem;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.link {
+    background-color: khaki;
+    font-size: 3rem;
+}
