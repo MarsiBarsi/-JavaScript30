@@ -31,7 +31,7 @@ h3 {
 }
 .hand {
     width:50%;
-    height:6px;
+    height:3px;
     background:black;
     position: absolute;
     top:50%;
@@ -39,6 +39,14 @@ h3 {
     transform: rotate(90deg);
     transition: all 1s;
     transition-timing-function: cubic-bezier(1, 1, 1, 1);
+}
+
+.hour-hand {
+    height: 5px;
+}
+
+.second-hand {
+    height: 1px;
 }
 
 .back {

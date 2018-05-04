@@ -1,0 +1,39 @@
+:root {
+    --color: rgb(255,255,255);
+    --contra-color: rgb(0,0,0);
+}
+
+html {
+    font-size: 10px;
+    background-color: var(--color);
+    background-size: cover;
+    text-align: center;
+    font-family: sans-serif;
+}
+h3 {
+    font-size: 2rem;
+    color: var(--contra-color);
+}
+input {
+    width: 60%;
+}
+label {
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: var(--contra-color);
+    font-style: italic;
+}
+
+
+.back {
+    margin-top: 30%;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 2rem;
+    border-style: dotted;
+    border-color:var(--contra-color);
+}
+#link {
+    text-decoration: none;
+    color: var(--contra-color);
+}
