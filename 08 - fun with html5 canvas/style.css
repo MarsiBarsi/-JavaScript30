@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+  
+  font-family:'helvetica neue';
+  font-size: 20px;
+  font-weight: 200;
+}
+
+
+.link-box {
+  position: fixed;
+  width: 10rem;
+  background-color: rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  width: 10rem;
+  background-color: rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
