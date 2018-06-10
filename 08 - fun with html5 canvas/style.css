@@ -4,8 +4,8 @@ html {
   font-family:'helvetica neue';
   font-size: 20px;
   font-weight: 200;
+  overflow: hidden;
 }
-
 
 .link-box {
   position: fixed;
